@@ -1179,7 +1179,7 @@ A constructor doesn't not return any value not even void also.
 
    note:
    =====
-   1)if class doesnt not contain any constructor,
+   1)if class doesn't not contain any constructor,
      compiler is responsible to provide default constructor in the 
      class  implicitly.
 
@@ -1198,8 +1198,8 @@ A constructor doesn't not return any value not even void also.
 
   }
     
-  3) If explicity we need to use this() or super() 
-    inside a constructor,it should be first line statment inside
+  3) If explicitly we need to use this() or super() 
+    inside a constructor, it should be first line statementF inside
     the constructor.
 
    
@@ -1729,17 +1729,14 @@ public class ExampleOnStr
 
 
 Inheritance:
-  ============
-
+============
    Acquiring the properties and methods  from one class to
    another class is called inheritance.
-
      or
-
    Acquiring the properties and methods from Parent Class(super class) to 
    Child Class(subclass) is called inheritance.
 
-   the main advantage of inheritance is code  reuseability.
+   the main advantage of inheritance is code  reusability.
 
     By using extend keyword  we can get the properties and method from 
     parent class to child class.
@@ -1747,9 +1744,8 @@ Inheritance:
     Inheritance is  also called  as IS-A a relation.
 
    note:
-   =====
-
-   --  It is recommended to create the object for child class
+   =====  
+   -- It is recommended to create the object for child class
     in inheritance concept.
 
    --In java every class by default extends from Object class.
@@ -2117,10 +2113,9 @@ Encapsulation:
   ====
   class
 
+  In real time java bean class is called as Encapsulation class.
 
-  In real time javabean class is called as Encapsulation class.
-
-  what is javabean class ?
+  what is java bean class ?
  
   it a class which contain private access modifiers of instance variables
   and based on that instance variable the class contains
@@ -2128,7 +2123,7 @@ Encapsulation:
 
   note:
   =====
-  In spring,Hibernate frameworks the java bean class will called as Pojo class
+  In spring, Hibernate frameworks the java bean class will called as Pojo class
   (plain old java object)
 
   ex:
