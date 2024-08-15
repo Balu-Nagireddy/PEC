@@ -26,7 +26,35 @@
    ----
    Using Scanner  do-while with switch case
 
-4)java Naming conventions pdf 6 pages.ss
+4)java Naming conventions pdf 6 pages
+
+5)Can we  overload static methods?
+
+6) Can we overload main method?
+
+7) JDK,JRE and GarbageCollector?
+
+8) JVM Architecture
+
+9) usecase1,usecase2 and usecase3 on interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
