@@ -2407,7 +2407,7 @@ Interface:
    }
 
  -->once the interface is created who will provide the implementation,  
-    developer is responsible to provide implementaions for the interface
+    developer is responsible to provide implementations for the interface
 
  --> How to provide implementation
 
@@ -2711,7 +2711,7 @@ we can use final keyword in three ways
 
 Access Modifiers:
 ==================
-  AccessModifiers are used to control(visiable) the access of a class,
+  Access Modifiers are used to control(visibility) the access of a class,
   interface ,variable in package.
 
    Access Modifiers are
