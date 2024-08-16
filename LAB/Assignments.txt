@@ -38,6 +38,40 @@
 
 9) usecase1,usecase2 and usecase3 on interface
 
+10) What is marker interface?
+     Note: which predefined class  called Marker interface?
+
+11)Difference between abstract class and Normal class or concrete class
+
+12) Can we override static methods in child class..?
+
+13) finalizes method?
+
+14)Can we declare a class as Private?
+15)Can we declare a class as private?
+16)Can we declare a inner class? --which access modifiers are used for inner classes?
+17)when override a method from parent to child  can we change Access Modifier?
+   a) can we change return type?//Co-variant types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
