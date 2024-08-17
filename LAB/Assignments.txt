@@ -53,6 +53,16 @@
 17)when override a method from parent to child  can we change Access Modifier?
    a) can we change return type?//Co-variant types
 
+18)String Buffer is mutable or immutable? 
+   if mutable search for the example 
+
+19)
+a)Search for synchronized keyword?
+b)Difference Between String and StringBuffer?
+c)Difference Between String  and StringBuilder?
+d)Difference Between StringBuffer and StringBuilder?
+
+20) can we override equals() and hashcode methods from Object?
 
 
 
