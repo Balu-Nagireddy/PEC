@@ -3328,14 +3328,14 @@ Example:
 
       
     Methods:
-   ==========
+   ============
     void write(int ch);
      void write(Char ch[]);
      void write(String);
       void flush(); -- it will guarantee that last character
                             written into a file.
  
-      void close();-- to close the FileWrite Object
+      void close();-- to close the File Write Object
  
    Example:
    ---------
