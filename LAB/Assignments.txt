@@ -62,7 +62,45 @@ b)Difference Between String and StringBuffer?
 c)Difference Between String  and StringBuilder?
 d)Difference Between StringBuffer and StringBuilder?
 
-20) can we override equals() and hashcode methods from Object?
+20) can we override equals() and hashcode() methods from Object?
+
+21)Search for try with resources?
+22)Difference between throws and throw?
+23)search for exception propogation?
+24)PrintWriter
+25)Write a java program to read first line from fb1.txt file and first line from fb2.txt
+and write into fb3.txt?
+
+Ex:
+fb1.txt
+-------
+hello
+hi
+
+
+fb2.txt
+--------
+ramu
+banana
+
+output:
+--------
+
+fb3.txt:
+-------
+hello
+ramu
+hi
+banana
+
+
+
+
+
+
+
+
+
 
 
 
