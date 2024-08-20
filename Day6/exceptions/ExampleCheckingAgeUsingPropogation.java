@@ -22,6 +22,9 @@ public class ExampleCheckingAgeUsingPropogation {
 		eoep.validAge(age);//it will propagate(throws the exception) here
 		}catch (ValidAgeException e) {
 			System.err.println(e.getMessage());//calling method
+		}finally {
+			System.out.println("we are in finally block is ment for closing all resources");
+			sc.close();
 		}
 		
 		
