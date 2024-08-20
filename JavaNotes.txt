@@ -1557,6 +1557,13 @@ To understand it more deeply, consider an example:
 // create a string
 String example = "Hello! ";
 
+
+
+
+
+
+
+
 Here, we have created a string variable named example. The variable holds the string "Hello! ".
 
 Now suppose we want to change the string.
@@ -3143,7 +3150,7 @@ Example:
     By default jvm is responsible to create the object
     for the Built-in Exception Classes and throws the exception messages(printStackTrace)
      
-    Explicity for those predefinedException classes we need to create the object using throw keyoword
+    Explicitly for those predefined Exception classes we need to create the object using throw keyoword
     based on condition.
 
     syntax:
@@ -3153,17 +3160,17 @@ Example:
 
     note:
     =====
-    Mainly throw keyword is used to create the object explicity
+    Mainly throw keyword is used to create the object explicitly
       for user defined exception classes or custom Exception classes. 
 
 
-   UserDefinedExceptions:
+   User Defined Exceptions:
   ======================
    the exceptions which already exists inside java which will not
    meet the business requirement  then we need to go for
    user-defined exception or custom exception.
 
-  steps to create userdefined Exception class
+  steps to create user defined Exception class
    
   steps
   ======
