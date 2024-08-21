@@ -1,8 +1,9 @@
 package com.training.list;
 
-public class Product{
+public class Product {
+
 	private int productId;
-	private String  productName;
+	private String productName;
 	private double price;
 	public Product() {
 		super();
@@ -36,8 +37,9 @@ public class Product{
 	public String toString() {
 		return "Product [productId=" + productId + ", productName=" + productName + ", price=" + price + "]";
 	}
-    
 	
-
-
+	
+	
+	
+	
 }
