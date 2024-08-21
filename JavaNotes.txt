@@ -3634,6 +3634,199 @@ conclusion:2
      into sample.txt using FileInputStream and FileOutputStreaam
 
 
+Serialization:
+ ==============
+
+  Serialization is process of saving or writing state of an
+  Object into a file is called Serialization
+
+  Serializable  is a marker interface
+
+  What is Serializable Class?
+  A class which implements Serializable interface ,then
+  corresponding class is called Serializable class.
+
+
+ Example:
+ =========
+
+  1)WAP which implements Serializable interface 
+     this class contain two instance variables
+      and one method
+ 
+  2) convert above class into file.ser
+
+
+ 1)
+  sol:
+  ====
+  public class ExampleOnSerialization implements Serializable{
+             
+        
+       int a=10;
+   
+       int b=20;
+
+      public void methodOne(){
+ 
+       System.out.println("We are in method one of ExampleOnSerialization");
+
+     }
+
+    }
+
+
+ 2)public class Test{
+
+       public static void main(String args[]){
+       
+         ExampleOnSerialization et = new ExampleOnSerialization();
+
+    FileOutputStream fos = new FileOutputStream("D:\\DEMO\\file.ser");
+
+    ObjectOutputStream oos = new ObjectOutputStream(fos);
+    
+       oos.writeObject(et);//this method is convert the class object into file.
+
+    oos.close();
+   System.out.println("Serailization Completed");
+
+     }
+     } 
+    
+
+
+  De-serialization:
+  =================
+ 
+   The process of converting file into appropriate Object
+   is called Deserialization
+
+   Example:
+   ========
+
+    1)Write a java program to convert file.ser into
+     it corresponding ExampleOnSerialization class.
+
+  sol:
+  ===
+   public class ExampleOnDeSerz{
+
+    public static void main(String args[]){
+
+     FileInputStream fis = new FileInputStream("D:\\DEMO\\file.ser");
+     ObjectInputStream ois = new ObjectInputStream(fis);
+
+     Object o = ois.readObject();//this method is responsible to 
+                                                      //   covert file into an object
+    //converting super class object(o) into sub class(corresponding class)
+      ExampleOnSerialization eos =(ExampleOnSerialization) o;
+
+       System.out.println(eos.a);
+       System.out.println(eos.b);
+
+        eos.methodOne();   
+
+        ois.close();
+
+        }
+  }
+
+
+
+
+
+  transient:
+  ==========
+    
+   suppose a variable is declared using transient Keyword
+   the variable will not participate in the process of
+   Serialization
+   
+   note:
+   =======
+    JVM will replace the value of transient variable
+    with its default value of its type.
+
+  
+   Example:
+   ========
+
+   1)write a javaprogram which contain one instance variable
+   of type int  with transient and on more variable
+   of int  and one method.
+
+   2) convert above class object into file using serialization
+
+
+   sol
+   ====
+   1) public class ExampleOnTransient imnplements Serializable{
+             
+        
+       transient int a=10;
+   
+       int b=20;
+
+      public void methodOne(){
+ 
+       System.out.println("We are in method one of ExampleOnTransient");
+
+     }
+
+    }
+
+
+   2)public class Test2{
+
+       public static void main(String args[]){
+       
+         ExampleOnTransient et = new ExampleOnTransient();
+
+
+   FileOutputStream fos = new FileOutputStream("D:\\transient_1.ser");
+
+    ObjectOutputStream oos = new ObjectOutputStream(fos);
+    
+       oos.writeObject(et);
+
+    oos.close();
+   System.out.println("Serailization Completed");
+
+     }
+     } 
+    
+
+  3) WAP to convert the transient_1.ser into Object
+ sol:
+ ===
+       public class Test3{
+
+
+         public static void main(String args[]){
+
+     FileInputStream fis = new FileInputStream("D:\\transient_1.ser");
+     ObjectInputStream ois = new ObjectInputStream(fis);
+
+       
+     Object o = ois.readObject();
+
+   
+     ExampleOnTransient eserv =(ExampleOnTransient) o;
+
+
+       System.out.println(eserv.a);
+       System.out.println(eserv.b);
+
+
+        eserv.methodOne();
+
+
+        ois.close();
+
+
+       }   }
+
 
 
 
@@ -3671,7 +3864,7 @@ conclusion:2
 
   1)WAP to insert some Objects into ArrayList.
 
-  2)Write a javaprogram to only String object into arraylist 
+  2)Write a java to only String object into arraylist 
     using generics.
 
    Generics are used to specify a type of data to store into an Collection.
