@@ -1,6 +1,8 @@
 package com.training.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 
 public class ExampleOnArrayList4 {
@@ -38,7 +40,15 @@ public class ExampleOnArrayList4 {
 	System.out.println("Displaying the product details using java8 forEach loop");
 	al.forEach(p3obj -> {System.out.println(p3obj.getProductId()+" "+p3obj.getProductName()+" "+p3obj.getPrice());});
 	
+	System.out.println("Displaying the product details using price field in ascending order;");
 	
+	Comparator<Product> cpt =(cp1,cp2) ->cp1.getPrice()>cp2.getPrice()?1:cp1.getPrice()<cp2.getPrice()?-1:0;
+	
+	Collections.sort(al,cpt);//
+	System.out.println("Displaying the product details using enhanced forloop  ascending order");
+	for(Product p4obj :al) {
+		System.out.println(p4obj.getProductId()+" "+p4obj.getProductName()+" "+p4obj.getPrice());
+	}
 	
 	
 	
