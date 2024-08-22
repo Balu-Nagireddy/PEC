@@ -131,7 +131,7 @@ Exercise:
 1)
 a)Write a java bean class named Employee(empId,ename,sal) -->Constructors ,setters and getters, toString().
 b)Write a java program to add Employee object into TreeSet and
-  perform custom sorting using sal field (Comparator class) and display the records in descending order.
+  perform custom sorting using sal field (Comparator class)   and display the records in descending order.
 
 Ex:
 ---
