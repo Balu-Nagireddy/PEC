@@ -106,7 +106,7 @@ b) Write a java program named as ExampleOnLinkedList2  to add Item objects into 
 2)Search on these collection classes and for each top execute one example:
   ============
    1)Hashtable
-   2)vector,Stack
+   2)vector,Stack  
    3)IdentityHashMap
    4)WeakHashMap
    5)Queue(PriorityQueue,BlockingQueue) 
@@ -114,6 +114,19 @@ b) Write a java program named as ExampleOnLinkedList2  to add Item objects into 
 3)) WAP to add javabean class Item class(itemid,itemName,itemPrice)
        into linkedHashSet usign Generic and display the itemid,itemName and itemPrice 
         desceding order based on price.
+
+4)a)Write a java program Customer(id,name,address) -->constructors ,setters and getters, to String().
+
+b)Write a java program named as ExampleOnTreeSet2  to add Customer objects into TreeSet. and
+Display the Customer objects.
+
+5)what is comparable interface?
+6) what is comparator interface?
+7) Difference between Comparable and Comparator?
+8) what is the contract between hashCode() and equals().
+
+
+
 
 
 
