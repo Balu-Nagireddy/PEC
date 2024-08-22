@@ -126,7 +126,28 @@ Display the Customer objects.
 8) what is the contract between hashCode() and equals().
 
 
+Exercise:
+---------
+1)
+a)Write a java bean class named Employee(empId,ename,sal) -->Constructors ,setters and getters, toString().
+b)Write a java program to add Employee object into TreeSet and
+  perform custom sorting using sal and display the records in descending order.
 
+Ex:
+---
+Employee e1 = new  Employee(23,"smith",4000);
+Employee e2 = new  Employee(10,"martin",5000);
+Employee e3 = new  Employee(40,"allen",8000);
+Employee e4 = new  Employee(21,"scott",1000);
+Employee e5 = new  Employee(23,"smith",4000);
+
+output:
+-------
+Displaying the Object from the treeSet
+40,"allen",8000
+10,"martin",5000
+23,"smith",4000
+21,"scott",1000
 
 
 
