@@ -4010,8 +4010,8 @@ SET:
     HashSet is class which provide implementation for Set Interface
     HashSet is class internally uses Data Structure is HashTable
    
-    2)Duplicates are not allowed
-    3)Insertion order is  not preserved(it will display the element in random order)
+    2)Duplicates are not allowed and null values are allowed
+    3)Insertion order is  not preserved(it will display the elements in random order)
 
     Constructors:
     ===========
@@ -4045,20 +4045,19 @@ Example:
 
 
    2)LinkedHashSet:
-    ===================
+    ===================  
 
      Duplicates are not allowed
    
-     Insertion order is preserved
+     Insertion order is preserved --- important point
 
      null values are allowed
 
      Heterogeneous and Homogeneous elements are allowed
 
-    LinkedHashSet internally uses DataStructure is
-       hashtable and doublelinked list.
+    LinkedHashSet internally uses Data Structure is hash table and double linked list.
 
-    constrcutor:
+    constructor:
     =============
 
      LinkedHashSet lhs = new LinkedHashSet();
@@ -4073,9 +4072,8 @@ Example:
       elements using iterator
 
     2) WAP to add javabean class Item class(itemid,itemName,itemPrice)
-       into linkedHashSet usign Generic and display the itemid,itemName and itemPrice using
-        iterator
-
+       into linkedHashSet usign Generic and display the itemid,itemName and itemPrice 
+        desceding order based on price
 
 
     TreeSet:
@@ -4089,7 +4087,7 @@ Example:
     In Treeset internally it supports natural sorting order(using Comparable interface),
     so that elements displayed in ascending order
 
-    TreeSet Internally uses DataStructure is  Balanced-Tree
+    TreeSet Internally uses DataStructure is  Red-black-Tree /Balanced Treed
 
     Constructors:
     =============
@@ -4250,13 +4248,9 @@ Example:
   ===========
   1)Wap to insert integer elements into ArrayList using Generics
     a)Display the elements using iterator
-    b)while read the elements try to remove integer object(Scanner using iterator 
-    c)While reading add an new element into ArrayList 
-        if (c)not possible it will throw Exception ,i need that Exception Name
-      either ConcurrentModificationClassException or UnSupportedOperationException
-         
-
-     2)What is meant by Comparable(interface) class?
+    b)while read the elements from the list , try to remove integer object.
+  
+  2)What is meant by Comparable(interface) class?
        a)Which predefined classes implement this Comparable Interface
 
  
@@ -4265,10 +4259,10 @@ Example:
     ========
 
     1) create a class named as Employee with
-      two instance variables String name,int id
+      two instance variables String name, int id
 
     2)create class to store employee object  inside 
-      TreeSet
+      Tree Set
 
     
   MAP:
@@ -4280,11 +4274,11 @@ Example:
    To represent group of key, value pairs as a single entity
    then we need to go for Map
 
-   DUplicate Keys are not allowed ,values can be duplicated
+   Duplicate Keys are not allowed ,values can be duplicated
 
-   we can store hetergeneous and homogeneous type of data.
+   we can store heterogeneous and homogeneous type of data.
   
-   we can store null key and value only once.    
+   we can store null key as once and null value no of times(HashMap and LinkedHashMap).    
      
   Implementation Classes 
   ======================
@@ -4421,7 +4415,6 @@ Example:
   
   self-study:
   ============
-
    1)Hashtable
    2)vector,Stack
    3)IdentityHashMap

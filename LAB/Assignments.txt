@@ -94,6 +94,26 @@ hi
 banana
 
 
+Collections:
+------------
+1)
+a)Create a class named  as Item (itemId,itemName,price)
+  Generate constructors followed by setters and getter ,toString()
+
+b) Write a java program named as ExampleOnLinkedList2  to add Item objects into linkedlist and
+  display the elements in descending order based on price field.
+
+2)Search on these collection classes and for each top execute one example:
+  ============
+   1)Hashtable
+   2)vector,Stack
+   3)IdentityHashMap
+   4)WeakHashMap
+   5)Queue(PriorityQueue,BlockingQueue) 
+
+3)) WAP to add javabean class Item class(itemid,itemName,itemPrice)
+       into linkedHashSet usign Generic and display the itemid,itemName and itemPrice 
+        desceding order based on price.
 
 
 
