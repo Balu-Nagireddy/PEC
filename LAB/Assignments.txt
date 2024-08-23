@@ -162,7 +162,10 @@ b)Write a java program  to store Key as Integer and Value as a Student(sid,sname
 
  a)Get the all values from the LinkedHashMap object.
  b)convert the values into ArrayList object
- c)Sort the values in ArrayList in desceding.
+ c)Sort the values in ArrayList in descending.
+
+
+
 
 
 

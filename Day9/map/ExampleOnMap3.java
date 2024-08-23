@@ -17,7 +17,7 @@ public class ExampleOnMap3 {
 		//hm.put(null,"allen");
 		
 		System.out.println("No of objects in hm : "+hm.size());
-		System.out.println("Insertion order is preserved based on key");
+		System.out.println("ascending order is preserved based on key");
 		System.out.println(hm);
 		
 
