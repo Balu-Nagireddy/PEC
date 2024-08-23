@@ -1,7 +1,9 @@
 package com.training.map;
 
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -53,6 +55,17 @@ public class ExampleOnMap2 {
 		  
 		  Collection<String> c =hm.values(); System.out.println("Values only: ");
 		  for(String s:c) { System.out.println(s); }
+		  
+		  System.out.println("Displaying the pairset using iterator");
+			//we need to call entrySet()
+			System.out.println("Key "+" "+ "values are :");
+	         Set<Entry<Integer,String>> st=  hm.entrySet();
+	         Iterator<Entry<Integer,String>> iobj =st.iterator();
+	         while(iobj.hasNext()) {
+	        	Map.Entry<Integer,String> me = iobj.next();
+	        	System.out.println(me.getKey()+" "+me.getValue());
+	         }
+			
 		  
 		  System.out.println("Displaying the pairset using enhanced for loop"); 
 		  //weneed to call entrySet() 
