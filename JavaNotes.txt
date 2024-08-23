@@ -4073,7 +4073,12 @@ Example:
 
     2) WAP to add javabean class Item class(itemid,itemName,itemPrice)
        into linkedHashSet usign Generic and display the itemid,itemName and itemPrice 
-        desceding order based on price
+        desceding order based on price.
+
+
+
+
+
 
 
     TreeSet:
@@ -4300,7 +4305,7 @@ Example:
    ==========
    Duplicate keys are not allowed and values can be duplicated
 
-   Insertion order is not preserved
+   Insertion order is not preserved based on key
    
    underline Datastructure is Hashtable.
 
@@ -4322,11 +4327,19 @@ Example:
 
     Hashmap hm = new HashMap(Int initialCapacity);
 
+
+
+
     1 )WAP to store key,value pairs inside HashMap Object
  
    2) WAP to store  Key as Integers and Values are String 
      into HashMap using Generics and display the key,value pairs 
     using iterator 
+
+
+
+
+
    3) WAP to store Key as Integer and Value as a UserDefined ClassObject
       is Student(sid,sname,marks)  into HashMap and display the values(Student) 
     from HashMap using iterator.
