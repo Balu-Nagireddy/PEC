@@ -157,7 +157,7 @@ a)Create a class named as Student(sid,sname,marks) (constructors,setters and get
 b)Write a java program  to store Key as Integer and Value as a Student(sid,sname,marks)into TreeMap and display the values(Student)  objects from TreeMap using enhanced for loop.
 
 
-2)Write a java program to store String(employee names) as key and Integer(Age) as value.
+2)Write a java program to store String(names) as key and Integer(Age) as value.
   add some key,value pairs into LinkedHashMap.
 
  a)Get the all values from the LinkedHashMap object.
