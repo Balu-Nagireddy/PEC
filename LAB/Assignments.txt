@@ -167,11 +167,38 @@ b)Write a java program  to store Key as Integer and Value as a Student(sid,sname
 
 
 
+1)Search for call by value and call by reference?
+  two examples?
+
+2)Search for Layered Architecture?
+
+3)Search for Functional Interface?
+
+
+ 
+  
 
 
 
 
 
+
+
+
+
+Follow steps to learn javafullstack
+
+1)corejava
+2)jdbc
+3)servelte and jsp
+   Build tools : Maven or gradle
+4)orm tools(hibernate)
+5)spring framework
+6)Spring boot
+7)Microservices
+8)GitHub
+9)html/css/javascript or typeScript basics
+10)Angular or React
 
 
 
