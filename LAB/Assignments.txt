@@ -189,13 +189,11 @@ List < Integer > numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 
 3.Write a Java program to find the second smallest and largest elements in a list of integers using streams.
-Ex:Hint use disctint(),skip(),sorted() 
+Ex:Hint use disctint(),skip(),sorted().findLargest() ,findSmallest()
 List < Integer > nums = Arrays.asList(1, 17, 54, 14, 14, 33, 45, -11);
 
-
-
-
-Today's Search:
+  
+Today's Search:  
 ===============
 1)How to work with null pointer exception using Optional Class.
 2)Search and create three examples on Optional Class
