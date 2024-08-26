@@ -177,7 +177,34 @@ b)Write a java program  to store Key as Integer and Value as a Student(sid,sname
 
  
   
+java8:
+======
+1)Write a Java program to convert a list of strings to uppercase or lowercase using streams.
+Ex:Hint use map()
+List < String > colors = Arrays.asList("RED", "grEEn", "white", "Orange", "pink");
 
+2)Write a Java program to calculate the sum of all even, odd numbers in a list using streams.
+Ex:HInt use filter()
+List < Integer > numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+
+3.Write a Java program to find the second smallest and largest elements in a list of integers using streams.
+Ex:Hint use disctint(),skip(),sorted() 
+List < Integer > nums = Arrays.asList(1, 17, 54, 14, 14, 33, 45, -11);
+
+
+
+
+Today's Search:
+===============
+1)How to work with null pointer exception using Optional Class.
+2)Search and create three examples on Optional Class
+3)Write a program to store Product(pid,pname,price) class into arrayList and
+using Streams convert Product object into Map<pname,price>
+
+Note:
+====
+Search above programs in www.javaguides.net
 
 
 

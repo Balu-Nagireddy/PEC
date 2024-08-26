@@ -138,15 +138,15 @@ public class ConstructorReference {
 Streams:
 ========
 To process objects of the collection, in 1.8 version Streams concept introduced.
-
 What is the differences between java.util.streams and java.io streams?
 ======================================================================
 java.util streams meant for processing objects from the collection. 
-I.e., it represents a stream of objects 
-from the collection but java.io streams meant for processing binary and character data with respect to 
-file.
-i.e., it represents stream of binary data or character data from the file .hence java.io streams and 
-java.util streams both are different
+I.e., it represents a stream of objects from the collection 
+but 
+java.io streams meant for processing binary and character data with respect to file.
+i.e., it represents stream of binary data or character data from the file .
+
+hence java.io streams and java.util streams both are different
 
 What is the difference between collection and stream?
 =====================================================
@@ -161,6 +161,12 @@ stream() method is a default method added to the Collection in 1.8 version.
 default Stream stream()
 Ex:
 Stream s = c.stream();//factory method//clone()//Class.forName().
+
+
+
+
+
+
 
 Stream is an interface present in java.util.stream.
 ==================================================
@@ -240,7 +246,7 @@ public class TestOnStreamConfiguringAndProcessing {
 		//counting the even objects from the l1 
 		System.out.println("Even numbers");
 		l1.stream().filter(i->i%2==0).forEach(System.out::println); 
-		//System.out.println(count); 
+		
 		
 		Long count=l1.stream().filter(i->i%2==0).count();
 		System.out.println("Even Numbers "+count); 
@@ -254,7 +260,7 @@ public class TestOnStreamConfiguringAndProcessing {
 		//custom sorting
 		Comparator<Integer> comp=(i1,i2)->i2.compareTo(i1); 
 		List<Integer> l4=l1.stream().sorted(comp).collect(Collectors.toList());
-		System.out.println("Custom Sortin Descennding Order:");
+		System.out.println("Custom Sorting Descennding Order:");
 		System.out.println(l4); 
 		
 		//min number from the group of integers
