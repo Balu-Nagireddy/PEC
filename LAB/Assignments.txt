@@ -205,6 +205,12 @@ Note:
 Search above programs in www.javaguides.net
 
 
+What is maven?
+what is  remote repository,central repository,local repository?
+what is pom.xml?
+what is dependenecies?
+
+
 
 
 
